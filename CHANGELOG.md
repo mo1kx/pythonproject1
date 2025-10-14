@@ -1,5 +1,9 @@
 # Changelog
 
+## [0.5.0] - 2025-10-14
+- main: Update README.md
+
+
 ## [0.4.0] - 2025-10-14
 - main: Merge pull request #3 from mo1kx/feature/check
 
