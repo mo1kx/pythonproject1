@@ -1,0 +1,7 @@
+services:
+  web:
+    image: ${IMAGE:-local/pythonproject1}:${TAG:-dev}
+    build: .
+    ports:
+      - "8000:8000"
+
