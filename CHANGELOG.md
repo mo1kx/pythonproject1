@@ -1,5 +1,9 @@
 # Changelog
 
+## [0.4.0] - 2025-10-14
+- main: Merge pull request #3 from mo1kx/feature/check
+
+
 ## [0.3.0] - 2025-10-14
 - main: Merge pull request #2 from mo1kx/feature/health-endpoint
 
