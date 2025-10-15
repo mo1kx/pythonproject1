@@ -1,5 +1,9 @@
 # Changelog
 
+## [0.7.0] - 2025-10-15
+- main: Merge pull request #7 from mo1kx/sync/local-merge
+
+
 ## [0.6.0] - 2025-10-15
 - main: Merge pull request #4 from mo1kx/feature/test-pipeline
 
