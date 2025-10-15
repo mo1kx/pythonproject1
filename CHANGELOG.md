@@ -1,5 +1,9 @@
 # Changelog
 
+## [0.8.0] - 2025-10-15
+- main: Merge pull request #8 from mo1kx/feature/final-check
+
+
 ## [0.7.0] - 2025-10-15
 - main: Merge pull request #7 from mo1kx/sync/local-merge
 
