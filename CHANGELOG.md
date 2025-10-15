@@ -1,5 +1,9 @@
 # Changelog
 
+## [0.8.1] - 2025-10-15
+- main: Merge pull request #9 from mo1kx/hotfix/minor-fix
+
+
 ## [0.8.0] - 2025-10-15
 - main: Merge pull request #8 from mo1kx/feature/final-check
 
