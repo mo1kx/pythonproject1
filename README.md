@@ -36,3 +36,4 @@ docker build -t local/pythonproject1:dev .
 docker run -p 8000:8000 local/pythonproject1:dev
 ```
 # pr среда, 15 октября 2025 г. 15:22:08 (MSK)
+# pr среда, 15 октября 2025 г. 15:22:29 (MSK)
