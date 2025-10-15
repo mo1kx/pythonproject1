@@ -12,6 +12,14 @@ jobs:
       pull-requests: write
     steps:
       - uses: actions/checkout@v4
+      - name: Add branch-type labels (feature/hotfix)
+        uses: actions-ecosystem/action-add-labels@v1
+        if: ${{ startsWith(github.head_ref, 'feature/') || startsWith(github.head_ref, 'hotfix/') }}
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          labels: |
+            ${{ startsWith(github.head_ref, 'feature/') && 'feature' || '' }}
+            ${{ startsWith(github.head_ref, 'hotfix/') && 'hotfix' || '' }}
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
@@ -35,4 +43,13 @@ jobs:
           labels: |
             test-passed
             sec-passed
+      - name: Comment summary
+        if: ${{ success() }}
+        uses: thollander/actions-comment-pull-request@v2
+        with:
+          message: |
+            ✅ Checks passed.
+            - Pytest ✅
+            - Security (Bandit / pip-audit) ✅
+            - Branch: `${{ github.head_ref }}`
 
