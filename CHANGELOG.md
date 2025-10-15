@@ -1,5 +1,9 @@
 # Changelog
 
+## [0.6.0] - 2025-10-15
+- main: Merge pull request #4 from mo1kx/feature/test-pipeline
+
+
 ## [0.5.0] - 2025-10-14
 - main: Update README.md
 
